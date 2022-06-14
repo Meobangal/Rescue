@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1011</width>
+    <height>741</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>941</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="start_page">
+     <widget class="QLabel" name="start_page_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>교사용시작화면</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="q_upload_btn">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>220</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>문제출제</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="s_info_btn">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>220</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>학생정보열람</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="qna_btn">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>220</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>질의응답</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="chat_btn">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>220</y>
+        <width>111</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>실시간상담</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="q_upload_page">
+     <widget class="QLabel" name="q_upload_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>문제출제화면</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="upload_back_btn">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>590</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>뒤로가기</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="q_list">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>681</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="q_upload">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>520</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="q_list_check">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>590</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="q_send_btn">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>590</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="a_upload">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>570</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="q_up_label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>530</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="a_up_label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>580</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="s_info_page">
+     <widget class="QLabel" name="s_info_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>학생정보열람</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="s_info_browser">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>70</y>
+        <width>681</width>
+        <height>441</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="info_back_btn">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>590</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>뒤로가기</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="s_info_inputname">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>530</y>
+        <width>681</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="qna_page">
+     <widget class="QLabel" name="qna_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Q&amp;A 게시판</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="qna_list">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>884</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>884</width>
+        <height>531</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>884</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>학생 이름</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>질문 내용</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>답변</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="qna_back_btn">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>590</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>뒤로가기</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="qna_check">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>590</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="chat_page">
+     <widget class="QLabel" name="chat_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>실시간상담</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="chat_window">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>671</width>
+        <height>441</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="chat_back_btn">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>590</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>뒤로가기</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="chat_input">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>520</y>
+        <width>671</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1011</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
